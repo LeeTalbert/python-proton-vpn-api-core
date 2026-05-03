@@ -4,7 +4,7 @@ Release:	1
 URL:		https://github.com/ProtonVPN/python-proton-vpn-api-core
 Source0:	%{url}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Acts as a facade to the other Proton VPN components, exposing a uniform API to the available Proton VPN services.
-License:	GPL
+License:	GPLv3
 Group:		Development/Python
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(proton-core)
